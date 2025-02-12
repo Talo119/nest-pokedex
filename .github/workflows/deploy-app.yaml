@@ -14,6 +14,6 @@ jobs:
      - name: Checkout repository
        uses: actions/checkout@v4
      - name: pokedex-api
-       uses: digitalocean/app_action/deploy@v2
+       uses: digitalocean/app_action@v2
        with:
          token: ${{ secrets.POKEDEX_TOKEN }} 
