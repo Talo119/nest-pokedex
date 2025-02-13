@@ -4,5 +4,5 @@ services:
   github:
     branch: main
     deploy_on_push: true
-    repo: Talo119/next-pokedex
+    repo: Talo119/nest-pokedex
   name: api-pokedex
